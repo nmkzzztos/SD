@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Spanndecken</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+      <!-- header -->
+    <header>
+      <div class="container1">
+        <div class="header_inner">
+          <div class="header_logo">
+            <img src="assets/images/logo2.png" alt="">
+          </div>
+          <div class="number">
+            <a class="phone_number" href="#"><span><img src="assets/images/phone.png" alt=""></span>6098698</a>
+          </div>
+          <nav class="nav">
+            <a class="nav_link" href="#Spanndecken">Spanndecken</a>
+            <a class="nav_link" href="#slideshow">Über uns</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- intro -->
+    <div class="container1">
+      <div class="intro_inner">
+        <div class="intro_title">
+          <h2>Decke renovieren mit einer Spanndecke:</h2>
+          <h5>✔ Spanndecken für den Heimwerker. Vom Profi. In Profi-Qualität</h5>
+          <h5>✔ Schneller und sauberer als andere Renovierungsarten. Versprochen.</h5>
+          <h5>✔ Schritt für Schritt: Unsere Anleitungen zeigen dir, wie’s geht </h5>
+        </div>
+        <img src="assets/images/intro_img.png" alt="">
+      </div>
+    </div>
+    <!-- Spanndecken -->
+    <div class="container">
+      <div class="Spanndecken" id="Spanndecken">
+        <h1 class="Spanndecken_top">Arten von Spanndecken</h1>
+        <div class="Spanndecken_inner">
+         <img id="myImg" src="assets/images/Spanndecke.jpg" alt="Spanndecke" style="width:100%;max-width:300px">
+         <img id="myImg1" src="assets/images/Lichtdecke.jpg" alt="Lichtdecke" style="width:100%;max-width:300px">
+         <img id="myImg2" src="assets/images/Designdecke.jpg" alt="Designdecke" style="width:100%;max-width:300px">
+         <div id="myModal" class="modal">
+           <span class="close">&times;</span>
+           <img class="modal-content" id="img01">
+           <div id="caption"></div>
+         </div>
+        </div>
+      </div>
+    </div>
+      <!-- Prices under Spanndecken -->
+      <div class="container">
+        <div class="Prices">
+          <div class="price-spanndecke">
+            <p>Spanndecke</p>
+            <p>29€/m<span><sup>2</sup></span></p>
+         </div>
+         <div class="price-lichtdecke">
+           <p>Lichtdecke</p>
+           <p>41€/m<span><sup>2</sup></span></p>
+         </div>
+          <div class="price-designdecke">
+            <p>Designdecke</p>
+            <p>112€/m<span><sup>2</sup></span></p>
+          </div>
+       </div>
+     </div>
+    <div class="container">
+      <div class="info">
+        <div class="info_left">
+          <div class="heading2">
+            <p>Warum SpanndeckenShop</p>
+          </div><br>
+          <div class="slideshow-container" id="slideshow">
+            <div class="mySlides fade">
+              <img src="assets/images/delivery.png" alt="">
+              <h1>Kostenlose Lieferung</h1><br>
+              <h3>Ab 250 € gehen die Versandkosten, innerhalb Deutschlands, auf uns. </h3>
+            </div>
+            <div class="mySlides fade">
+              <img src="assets/images/quality.png" id="mySlides__quality" alt="mySlides__img">
+              <h1>In Deutschland hergestellt </h1><br>
+              <h3>Unsere Gewebedecken werden in Deutschland hergestellt, sind mehrfach ausgezeichnet und zertifiziert.  </h3>
+            </div>
+            <div class="mySlides fade">
+              <img src="assets/images/clients.png" alt="">
+              <h1>1000+ Kunden </h1><br>
+              <h3>Über 1000 Kunden vertrauen auf unsere Spanndecken und Kompetenz.  </h3>
+            </div>
+    
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <script src="script.js"></script>
+          <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div> 
+          </div>
+          <div class="info_right">
+            <div class="heading2">
+              <p>Kontakt</p>
+            </div>
+            <div class="info_right_text">
+              <div id="info_right_help"><h4>Wir helfen gerne weiter <br>
+                Du hast eine Frage oder möchtest <br>
+                Dich persönlich beraten lassen?</h4></div>
+              <a id="info_mail" href="">blablabla@gmail.com</a>
+              <h3 id="info_right_telefon">Telefonnummer - 0000000/000</h3>
+              <h5>Montag bis Freitag von 08 - 16 Uhr</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="footer">
+  <div class="footer__inside">
+    <div class="footer__inside_left">
+      <p>ZAHLUNGSWEISEN</p>
+      <img src="assets/images/zahlungsweisen2018_(1).png" alt="">
+    </div>
+    <div class="footer__inside_right">
+      <a href="" class="footer__inside_link">blablabla@gmail.com</a>
+      <p><span><img src="assets/images/phone.png" alt=""></span>0000000/000</p>
+    </div>
+  </div>
+</div>
+  </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
